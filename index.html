@@ -7,73 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/flexbox.css">
     <link rel="stylesheet" href="css/style.css">
+
+
+
+    
     <title>Alura Geek</title>
 </head>
 <body>
-    <header>
-         <div class="cabecalhoPrincipal">
-             <div class="container">
-                 <div class="logo">
-                     <img src="img/Logo.png"></div>
-             <div class="buscador">
-                 <img src="img/barra-pesquisa.png">
-             </div>
-                <div class="botaoiniciar">
-                    <nav>
-                        <a href="iniciarSessao.html">Iniciar Sessão</a>
-                    </nav>
-                </div>
-        </div>
-        <div class="menu"></div>
-    </div>  
-</header>
+    <header class="cabecalhoPrincipal">
+        <div class="container">
+            <a class="cabecalhoPrincipal-titulo" href="#">
+                <img src="img/principal/Logo.png">
+            </a>
 
-<div class="banner">
-    <img src="img/banner.png">
-</div>
-    <div class="galeria">
-         <nav>
-            <h3>Star Wars</h3>
-            <h4 style="text-align: right;" >Ver tudo</h4>
-             <ul ul style="list-style: none;" class="starWars">
-            
-                <li>   
-                    <img src="img/starWars/unsplash_1VV1MRafd7A.png">
+             <a class="buscador">
+                 <img src="img/principal/barra-pesquisa.png">
+             </a>
+
+            <nav class="botaoiniciar">
+                <a href="indexSessao.html">Iniciar Sessão</a>
+                    </nav>
+        </div>       
+    </header>
+       
+     <main class="conteudoPrincipal">
+        <div class="container">
+            <a class="banner">
+                <img src="img/principal/banner.png">
+            </a>        
+       
+            <nav>
+                <h3>Star Wars</h3>
+                <ul class="conteudoPrincipal-produtos" ul style="list-style: none;">
+				
+                <li class="conteudoPrincipal-cursos-link"><a href="#">   
+                    <img src="img/principal/starWars/unsplash_1VV1MRafd7A.png">
                     <p class="produto-descricao">Darth Vader</p>
                     <p class="produto-preco">R$ 25,00</p>
                     <a href="darth-vader" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                 </li>
 
                 <li> 
-                    <img src="img/starWars/unsplash_4OHkK555s1A.png">
+                    <img src="img/principal/starWars/unsplash_4OHkK555s1A.png">
                     <p class="produto-descricao">R2-D2</p>
                     <p class="produto-preco">R$ 25,00</p>
                     <a href="r2-d2" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                 </li>
             
                 <li> 
-                    <img src="img/starWars/unsplash_6FDXGY9J6y4.png">
+                    <img src="img/principal/starWars/unsplash_6FDXGY9J6y4.png">
                     <p class="produto-descricao">Não Sei</p>
                     <p class="produto-preco">R$ 25,00</p>
                     <a href="nao-sei" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                 </li>
 
                 <li>
-                    <img src="img/starWars/unsplash_epRFE_hBNjo.png">
+                    <img src="img/principal/starWars/unsplash_epRFE_hBNjo.png">
                     <p class="produto-descricao">Mini Darth Vader</p>
                     <p class="produto-preco">R$ 25,00</p>
                     <a href="darth-vader-2" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                 </li>
 
                 <li>
-                    <img src="img/starWars/unsplash_KeGToDVN0l4.png">
+                    <img src="img/principal/starWars/unsplash_KeGToDVN0l4.png">
                     <p class="produto-descricao">Yoda</p>
                     <p class="produto-preco">R$ 25,00</p>
                     <a href="yoda" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                 </li>
 
                 <li>
-                    <img src="img/starWars/unsplash_R8L1l9RN198.png">
+                    <img src="img/principal/starWars/unsplash_R8L1l9RN198.png">
                     <p class="produto-descricao">Mini Yoda</p>
                     <p class="produto-preco">R$ 25,00</p>
                     <a href="mini-yoda" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
@@ -81,46 +84,46 @@
             </ul>    
             <nav>
                 <h3>Consoles</h3>
-                <h4 style="text-align: right;" >Ver tudo</h4>
-                 <ul ul style="list-style: none;" class="starWars">
-                
+                <ul class="conteudoPrincipal-produtos" ul style="list-style: none;">
+				
+                <li class="conteudoPrincipal-cursos-link"><a href="#">
                     <li>   
-                        <img src="img/console/unsplash_0POwK6iAiRQ.png">
+                        <img src="img/principal/console/unsplash_0POwK6iAiRQ.png">
                         <p class="produto-descricao">Controle</p>
                         <p class="produto-preco">R$ 25,00</p>
                         <a href="controle" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                     </li>
     
                     <li> 
-                        <img src="img/console/unsplash_caNzzoxls8Q.png">
+                        <img src="img/principal/console/unsplash_caNzzoxls8Q.png">
                         <p class="produto-descricao">Controle e console</p>
                         <p class="produto-preco">R$ 25,00</p>
                         <a href="controle-console" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                     </li>
                 
                     <li> 
-                        <img src="img/console/unsplash_k-xYhI3-gJM.png">
+                        <img src="img/principal/console/unsplash_k-xYhI3-gJM.png">
                         <p class="produto-descricao">Game boy</p>
                         <p class="produto-preco">R$ 25,00</p>
                         <a href="game-boy" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                     </li>
     
                     <li>
-                        <img src="img/console/unsplash_wa5z9o9fgjw.png">
+                        <img src="img/principal/console/unsplash_wa5z9o9fgjw.png">
                         <p class="produto-descricao">Controle Nintendo Switch</p>
                         <p class="produto-preco">R$ 25,00</p>
                         <a href="controle-nintendo" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                     </li>
     
                     <li>
-                        <img src="img/console/unsplash_Zjn4dT993-g.png">
+                        <img src="img/principal/console/unsplash_Zjn4dT993-g.png">
                         <p class="produto-descricao">Console PS</p>
                         <p class="produto-preco">R$ 25,00</p>
                         <a href="console-ps" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                     </li>
     
                     <li>
-                        <img src="img/console/unsplash_ZV7lnfyQLmA.png ">
+                        <img src="img/principal/console/unsplash_ZV7lnfyQLmA.png ">
                         <p class="produto-descricao">Console Nintendo</p>
                         <p class="produto-preco">R$ 25,00</p>
                         <a href="console-nintendo" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
@@ -128,9 +131,9 @@
                 </ul> 
                 <nav>
                     <h3>Diversos</h3>
-                    <h4 style="text-align: right;" >Ver tudo</h4>
-                     <ul ul style="list-style: none;" class="starWars">
+                    <ul class="conteudoPrincipal-produtos" ul style="list-style: none;">
                     
+                    <li class="conteudoPrincipal-cursos-link"><a href="#">
                         <li>   
                             <img src="img/diversos/unsplash_bUgaIaZysH0.png">
                             <p class="produto-descricao">Camiseta SNS</p>
@@ -139,35 +142,35 @@
                         </li>
         
                         <li> 
-                            <img src="img/diversos/unsplash_fMP-oCze3AY.png">
+                            <img src="img/principal/diversos/unsplash_fMP-oCze3AY.png">
                             <p class="produto-descricao">Camiseta Atari</p>
                             <p class="produto-preco">R$ 25,00</p>
                             <a href="camiseta-atari" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                         </li>
                     
                         <li> 
-                            <img src="img/diversos/unsplash_jMT6BrgBuXU.png">
+                            <img src="img/principal/diversos/unsplash_jMT6BrgBuXU.png">
                             <p class="produto-descricao">Rádio Relógio</p>
                             <p class="produto-preco">R$ 25,00</p>
                             <a href="radio-relogio" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                         </li>
         
                         <li>
-                            <img src="img/diversos/unsplash_MxVkWPiJALs.png">
+                            <img src="img/principal/diversos/unsplash_MxVkWPiJALs.png">
                             <p class="produto-descricao">Óculos Realidade Virtual</p>
                             <p class="produto-preco">R$ 25,00</p>
                             <a href="oculos-realidade" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                         </li>
         
                         <li>
-                            <img src="img/diversos/unsplash_r27umXAelDc.png">
+                            <img src="img/principal/diversos/unsplash_r27umXAelDc.png">
                             <p class="produto-descricao">Pokemón</p>
                             <p class="produto-preco">R$ 25,00</p>
                             <a href="pokemon" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
                         </li>
         
                         <li>
-                            <img src="img/diversos/unsplash_sYVY_ZKwaxU.png">
+                            <img src="img/principal/diversos/unsplash_sYVY_ZKwaxU.png">
                             <p class="produto-descricao">Sonic</p>
                             <p class="produto-preco">R$ 25,00</p>
                             <a href="sonic" style="color: #2A7AE4; font-family: sans-serif; font-size: 16;">Ver produto</a>
@@ -176,23 +179,27 @@
             </div>
 </nav>
 </div>
-<footer>
-    <div class="footer">
-    <img src="img/Logo.png">
-    <fieldset>
-        <legend>Fale Conosco</legend>
-        <input id="nome" type="text" name="nome-usuario" placeholder="Digite seu nome" autofocus required pattern="[A-Za-z ']{4,}" title="Nome com pelo menos 4 caracteres, A-Z, a-z">
-        <input id="mensagem" type="mensagem" name="mensagem" placeholder="Mensagem" required>
-        <button class="enviar">Enviar mensagem</button>
-
-    </fieldset>
-      
-   
+</main>
+<footer  class="footer" style="background-color: #EAF2FD;">
+    <div class="container">
+         <img src="img/principal/Logo.png">
+ 
+        <ul style="list-style: none;">
+         <form class="footer-contato">
+            <fieldset>
+                <legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Fale conosco</legend>
+                <div class="rodapePrincipal-contatoForm-fieldset"> 
+                    <input class="rodapePrincipal-contatoForm-nomeInput" type="nome" name="nome" id="nome">
+                    <input class="rodapePrincipal-contatoForm-mensagemInput" type="email" name="mensagem" id="mensagem">
+                    <button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
+                </div>
+            </fieldset>
+</ul> 
 </div>
 </footer>
 
 <p class="copyright">&copy; Desenvolvido por Paula Caruso Fiorani<br>
     2022</p>
-
+</div>  
 </body>
 </html>

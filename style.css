@@ -1,0 +1,230 @@
+body {
+	background-color: white;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.cabecalhoPrincipal {
+padding: 0px;
+gap: 10px;
+width: 100%;
+height: 115px;
+margin-left: 5%;
+margin-right: 15%;
+}
+
+.conteudoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.banner {
+    Width: 100%;
+    Height: 352px;
+    Top: 115px;
+    Padding: 32px;
+    Gap: 16px;
+
+}
+
+.conteudoPrincipal-produtos-link {
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+
+.conteudoPrincipal-produtos-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.conteudoPrincipal-produtos-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+
+.produto-descricao {
+Fill: Solid;
+color: black;
+font-family: sans-serif;
+font-size: 15;
+}
+
+.produto-preco {
+
+color: black;
+font-family: sans-serif;
+font-size: 16;
+font-style: italic;
+font-weight: bold;
+fill: solid;
+}
+
+h3 {
+    color: black;
+font-family: sans-serif;
+font-size: 16;
+font-style: italic;
+font-weight: bold;
+fill: solid;
+
+
+}
+
+form>fieldset {
+margin-bottom: 0%;
+border-color: #EAF2FD;
+font-family: sans-serif;
+font-size: 16;
+}   
+
+legend {
+font-size: 120%;
+font-weight: bold;
+font-family: sans-serif;
+font-size: 16;
+    
+}
+
+.contato {
+	width: 940px;
+	margin: 40px auto;
+}
+
+.contato label, .input-group legend {
+	display: block;
+	margin: 0 0 5px;
+	font-size: 20px;
+}
+
+input:focus, 
+textarea:focus {
+    background-color: #fffccc;
+}
+
+input:focus:invalid {
+    box-shadow: 0 0 3px red;
+}
+
+#nome  {
+    
+width: 560px;
+height: 56px;
+border-radius: 4px;
+font-family: sans-serif;
+font-size: 16;
+}
+ #mensagem {
+ width: 560px;
+ height: 82px;
+ border-radius: 4px;
+ font-family: sans-serif;
+font-size: 16;
+ }
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    font-size: 16;
+    
+    width: 165px;
+    height: 51px;
+    
+    /* Azul/100% */
+    
+    background: #2A7AE4;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: white;
+}
+
+button:hover,
+button:focus {
+    background-color: #8C1D3D;
+}
+
+fieldset>fieldset {
+    display: inline;
+}
+
+input[value="outro"] ~ input {
+    display: none;
+}
+
+input[value="outro"]:checked ~ input {
+    display: inline;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend  {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+    width: 560px;
+ height: 82px;
+}
+
+.input-padrao{
+	display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.footer {
+padding: 64px;
+gap: 115px;
+width: 100%;
+height: 368px;
+
+/* Azul/10% */
+
+background: #EAF2FD;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+font-family: sans-serif;
+    
+}
+.copyright {
+    font-family: sans-serif;
+    font-size: 16;
+    text-align: center;
+    width: 100%;
+}
+

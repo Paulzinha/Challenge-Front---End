@@ -1,0 +1,271 @@
+/* Sessao */
+body {
+	background-color: white;
+	font-family: 'Open Sans',Arial,sans-serif;
+    gap: 10px;
+    width: auto;
+height: 114px;
+}
+
+
+.container {
+	width: auto;
+	margin: 0 auto;
+}
+
+
+.cabecalhoPrincipal {
+padding: 0px;
+gap: 10px;
+width: auto;
+height: 115px;
+margin-left: 5%;
+margin-right: 15%;
+}
+
+
+main {
+	width:  940px;
+	margin: 0 auto;
+    align-items: center;
+
+}
+
+.form {
+	margin: 40px 0;
+    font-family: sans-serif;
+    font-size: 16;
+    align-items: center;
+
+
+}
+
+form label, form legend  {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+    width: 560px;
+    height: 82px;
+    border-radius: 4px;
+    font-family: sans-serif;
+   font-size: 16;
+
+}
+
+.checkbox {
+	margin:20px 0 ;
+}
+
+
+   .botao {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+        font-size: 16;
+        
+        width: 165px;
+        height: 51px;
+        
+        /* Azul/100% */
+        
+        background: #2A7AE4;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        color: white;
+    }
+    
+    button:hover,
+    button:focus {
+        background-color: #8C1D3D;
+    }
+    
+    fieldset>fieldset {
+        display: inline;
+    }
+    
+    input[value="outro"] ~ input {
+        display: none;
+    }
+    
+    input[value="outro"]:checked ~ input {
+        display: inline;
+    }
+
+
+.footerSessao {
+    padding: 64px;
+    gap: 115px;
+    width: auto;
+    height: 368px;
+    
+    /* Azul/10% */
+    
+    background: #EAF2FD;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: sans-serif;
+        
+    }
+
+
+form>fieldset {
+    margin-bottom: 0%;
+    border-color: #EAF2FD;
+    font-family: sans-serif;
+    font-size: 16;
+    }
+    
+    legend {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16;
+        
+    }
+    
+    input:focus, 
+    textarea:focus {
+        background-color: #fffccc;
+    }
+    
+    input:focus:invalid {
+        box-shadow: 0 0 3px red;
+    }
+    
+    #nome  {
+        
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 16;
+    }
+     #mensagem {
+     width: 560px;
+     height: 82px;
+     border-radius: 4px;
+     font-family: sans-serif;
+    font-size: 16;
+     }
+    
+    button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+        font-size: 16;
+        
+        width: 165px;
+        height: 51px;
+        
+        /* Azul/100% */
+        
+        background: #2A7AE4;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        color: white;
+    }
+    
+    button:hover,
+    button:focus {
+        background-color: #8C1D3D;
+    }
+    
+    fieldset>fieldset {
+        display: inline;
+    }
+    
+    input[value="outro"] ~ input {
+        display: none;
+    }
+    
+    input[value="outro"]:checked ~ input {
+        display: inline;
+    }
+    
+
+    .copyright {
+        font-family: sans-serif;
+        font-size: 16;
+        text-align: center;
+        width: auto;
+    }
+    
+
+    
+
+/* FLEXBOX */
+
+.cabecalhoPrincipal  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.botaoiniciar{
+    display: flex;
+}
+
+.conteudoSessao {
+    
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center; 
+flex-flow: column wrap;
+text-align: center;
+width: auto;
+height: 291px;
+left: 508px;
+top: 206px;
+background-color: #EAF2FD;
+
+}
+
+.footerSessao .containerSessao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    margin-right: 5%;
+    
+    }
+    
+    .footer-contato{
+        width: auto;
+    }
+    
+    .rodapePrincipal-contato-fieldset{
+        display: flex;
+    }
+    
+    .rodapePrincipal-navMap-list {
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap; 
+        flex-flow: column wrap;
+        height: 250px;
+    }
